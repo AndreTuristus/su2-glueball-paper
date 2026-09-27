@@ -1,0 +1,48 @@
+{
+    "experiment": "SU(2) Glueball & String Tension Isovolumetric Point (L=16)",
+    "timestamp_utc": "2026-09-27 08:38:53",
+    "lattice": {
+        "group": "SU(2)",
+        "beta": 2.4,
+        "geometry": "16^4",
+        "action": "Wilson"
+    },
+    "monte_carlo": {
+        "n_therm": 100,
+        "n_meas": 2000,
+        "n_overrelax": 4,
+        "n_bins": 40
+    },
+    "gevp_diagnostics": {
+        "hybrid_t1_t2": {
+            "cond": 871.4,
+            "modes": "3/3",
+            "m_a": 0.9513,
+            "m_a_err": 0.0637,
+            "R_0": 3.356,
+            "R_0_err": 0.222
+        },
+        "hybrid_t2_t3": {
+            "cond": 59.1,
+            "modes": "2/3",
+            "m_a": 0.7628,
+            "m_a_err": 0.312,
+            "R_0": 2.691,
+            "R_0_err": 1.1
+        },
+        "control_smearing_m_a": 0.9905,
+        "control_geometry_m_a": null
+    },
+    "physical_results": {
+        "plaquette": 0.629992,
+        "plaquette_err": 1.8e-05,
+        "sigma_a2": 0.08035,
+        "sigma_a2_err": 0.00129,
+        "coulomb_e": 0.2548
+    },
+    "artifact": {
+        "file": "su2_production_beta24_L16.npz",
+        "size_mb": 2.59,
+        "sha256": "c132f458b6c23d87551160b5d6a825a05b2750ee7bd0c5e017f2bb79373255bd"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "experiment": "SU(2) Glueball Spectroscopy & String Tension Baseline",
+    "timestamp_utc": "2026-09-26 21:55:42",
+    "lattice": {
+        "group": "SU(2)",
+        "beta": 2.4,
+        "geometry": "12^4",
+        "action": "Wilson standard gauge action"
+    },
+    "monte_carlo": {
+        "n_therm": 100,
+        "n_meas": 2500,
+        "n_overrelax": 4,
+        "n_bins": 50,
+        "bin_size": 50
+    },
+    "operators": {
+        "ape_levels": [
+            2,
+            6,
+            12
+        ],
+        "ape_alpha": 0.2,
+        "gevp_basis": [
+            "1x1_A2",
+            "1x2_A6",
+            "1x3_A12"
+        ],
+        "gevp_window": "t0=1 -> t=2",
+        "condition_number": 775.1,
+        "modes_resolved": "3/3"
+    },
+    "physical_results": {
+        "plaquette": 0.629974,
+        "plaquette_err": 2.9e-05,
+        "m_0pp_a": 0.9712,
+        "m_0pp_a_err": 0.0691,
+        "sigma_a2": 0.08195,
+        "sigma_a2_err": 0.00268,
+        "coulomb_e": 0.2394,
+        "mass_ratio_R0": 3.393,
+        "mass_ratio_R0_err": 0.248
+    },
+    "artifact": {
+        "file_name": "su2_production_beta24_L12_ape2_6_12.npz",
+        "size_mb": 2.56,
+        "sha256": "90d35c25f82161530e9b944ed6e35b1765342c1f3e8f589709c516dbc73fea70"
+    }
+}

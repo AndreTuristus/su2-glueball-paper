@@ -1,0 +1,65 @@
+{
+    "experiment": "SU(2) Glueball & String Tension Continuum Scaling Point",
+    "timestamp_utc": "2026-09-27 07:01:34",
+    "lattice": {
+        "group": "SU(2)",
+        "beta": 2.5,
+        "geometry": "16^4",
+        "action": "Wilson"
+    },
+    "monte_carlo": {
+        "n_therm": 100,
+        "n_meas": 2000,
+        "n_overrelax": 4,
+        "n_bins": 40
+    },
+    "gevp_diagnostics": {
+        "primary_hybrid": {
+            "basis": [
+                "1x1_A2",
+                "1x2_A6",
+                "1x3_A12"
+            ],
+            "cond": 296.6,
+            "modes": "3/3",
+            "m_t1_t2": 0.8379,
+            "m_t2_t3": 0.8045
+        },
+        "control_smearing": {
+            "basis": [
+                "1x1_A2",
+                "1x1_A6",
+                "1x1_A12"
+            ],
+            "cond": 606.9,
+            "modes": "3/3",
+            "m_t1_t2": 0.8354
+        },
+        "control_geometry": {
+            "basis": [
+                "1x1_A12",
+                "1x2_A12",
+                "1x3_A12"
+            ],
+            "cond": 505874.3,
+            "modes": "1/3",
+            "m_t1_t2": null
+        }
+    },
+    "physical_results": {
+        "plaquette": 0.65196,
+        "plaquette_err": 1.6e-05,
+        "m_0pp_a": 0.8379,
+        "m_0pp_a_err": 0.0918,
+        "sigma_a2": 0.04545,
+        "sigma_a2_err": 0.00078,
+        "coulomb_e": 0.2467,
+        "mass_ratio_R0": 3.931,
+        "mass_ratio_R0_err": 0.438
+    },
+    "artifact": {
+        "file": "su2_production_beta25_L16.npz",
+        "size_mb": 2.59,
+        "sha256": "246cf2105f809753054c9436fed8587ba1e68102b6eaa337a1fab6b98d4d8006"
+    }
+}
