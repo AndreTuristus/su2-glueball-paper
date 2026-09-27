@@ -24,7 +24,7 @@ in ~20 minutes per ensemble. See code/ for the full pipeline.
 
 Turenko, A. V. (2026). Continuum Extrapolation of the Scalar Glueball
 Mass in Pure Gauge SU(2) Lattice Field Theory. Zenodo.
-DOI: 10.5281/zenodo.XXXXXXX
+DOI: 10.5281/zenodo.23000654
 
 ## License
 
